@@ -30,7 +30,7 @@ Additionally, **flaky tests** (tests that fail intermittently without a code cha
 
 ### Empirical Comparison on Chronological Test Split (30 Commits)
 
-| Strategy | APFD ↑ | TTFF (s) ↓ | % Tests to Catch All ↓ | Runtime Saved ↑ | PR-AUC |
+| Strategy | APFD | TTFF (s) | % Tests to Catch All | Runtime Saved | PR-AUC |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | **Random (Baseline)** | 0.4868 ± 0.072 | 35.4800s | 94.3% | 6.0% | N/A |
 | **Recently-Failed-First** | 0.6613 ± 0.093 | 8.8321s | 91.3% | 19.6% | N/A |
