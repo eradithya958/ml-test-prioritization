@@ -1,0 +1,12 @@
+{
+  "total_tests_analyzed": 200,
+  "n_flaky_detected": 66,
+  "n_not_flaky": 134,
+  "threshold": 0.1,
+  "false_failure_builds_total": 150,
+  "false_failure_builds_after_quarantine": 150,
+  "builds_saved": 0,
+  "precision": 0.152,
+  "recall": 1.0,
+  "f1": 0.263
+}

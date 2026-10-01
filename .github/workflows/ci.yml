@@ -1,0 +1,100 @@
+# .github/workflows/ci.yml
+# ========================
+# CI pipeline for the ML Test Prioritization Framework.
+#
+# Triggers: push / PR to main or develop
+# Jobs:
+#   lint   → ruff + black (fast gate, ~10s)
+#   test   → pytest unit tests (no network, no data required)
+#   syntax → verify all scripts parse correctly
+
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # -------------------------------------------------------------------------
+  lint:
+  # -------------------------------------------------------------------------
+    name: Lint (ruff + black)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install lint tools
+        run: pip install ruff black
+
+      - name: ruff check
+        run: ruff check src/ scripts/ tests/
+
+      - name: black format check
+        run: black --check --diff src/ scripts/ tests/
+
+  # -------------------------------------------------------------------------
+  test:
+  # -------------------------------------------------------------------------
+    name: Unit Tests (Python ${{ matrix.python-version }})
+    needs: lint
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests pandas numpy lxml pytest pytest-cov tqdm
+
+      - name: Run unit tests
+        run: |
+          pytest tests/unit/ \
+            -v \
+            --tb=short \
+            --cov=src \
+            --cov-report=term-missing \
+            --cov-report=xml
+
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v4
+        if: matrix.python-version == '3.11'
+        with:
+          files: coverage.xml
+          fail_ci_if_error: false
+
+  # -------------------------------------------------------------------------
+  syntax:
+  # -------------------------------------------------------------------------
+    name: Script Syntax Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile all Python files
+        run: |
+          find src/ scripts/ -name "*.py" -exec python -m py_compile {} +
+          echo "All Python files compiled successfully"

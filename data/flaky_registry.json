@@ -1,0 +1,596 @@
+{
+  "tests/test_http2_0056.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.633778+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.4083,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1633,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_transports_0033.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.634088+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.3833,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1533,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_auth_0001.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.634294+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.3583,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1433,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_status_codes_0150.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.634452+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.3417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1367,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_headers_0007.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.634594+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.3333,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1333,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_async_client_0190.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.634744+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2917,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1167,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_models_0002.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.634928+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2917,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1167,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_request_0008.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.635100+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2917,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1167,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_exceptions_0005.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.635263+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2833,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1133,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_client_0000.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.635426+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.25,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_config_0004.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.635624+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.25,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_cookies_0006.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.635797+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.25,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_cookies_0094.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.635970+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.25,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_status_codes_0062.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.636146+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.25,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_sync_client_0081.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.636347+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.25,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.1,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_config_0070.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.636595+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0967,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_config_0092.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.636828+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0967,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_response_0009.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.637047+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0967,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_timeout_0085.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.637310+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0967,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_async_client_0036.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.637616+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.225,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.09,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_client_0088.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.637826+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2167,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0867,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_utils_0003.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.638029+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2167,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0867,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_http11_0013.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.638247+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2083,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0833,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_cookies_0116.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.638516+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.2,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.08,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_response_0097.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.638717+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1917,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0767,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_sync_client_0147.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.638927+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1917,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0767,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_decoders_0082.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.639557+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1833,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0733,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_redirects_0196.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.640378+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1833,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0733,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_http11_0079.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.640833+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.175,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.07,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_http11_0145.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.641086+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.175,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.07,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_response_0141.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.641337+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.175,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.07,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_utils_0091.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.641635+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.175,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.07,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_utils_0179.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.642103+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.175,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.07,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_headers_0117.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.642622+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1667,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0667,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_middleware_0197.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.643008+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1667,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0667,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_request_0140.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.643520+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1667,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0667,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_decoders_0192.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.644282+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1583,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0633,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_models_0178.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.644669+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1583,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0633,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_status_codes_0018.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.645002+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1583,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0633,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_sync_client_0015.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.645333+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1583,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0633,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_timeout_0129.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.645608+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1583,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0633,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_transports_0011.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.645877+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.15,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.06,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_config_0048.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.646156+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0567,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_decoders_0104.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.646459+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0567,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_middleware_0043.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.646844+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0567,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_streams_0164.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.647124+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1417,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0567,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_async_client_0080.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.647423+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.125,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.05,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_async_client_0124.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.647756+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.125,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.05,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_decoders_0060.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.648086+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1167,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0467,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_http2_0166.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.648379+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1167,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0467,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_middleware_0131.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.648692+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1167,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0467,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_request_0184.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.649027+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1167,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0467,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_sync_client_0059.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.649327+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1167,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0467,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_transports_0099.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.649629+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1167,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0467,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_decoders_0038.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.649944+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1083,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0433,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_exceptions_0071.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.650289+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1083,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0433,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_exceptions_0137.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.650639+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1083,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0433,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_exceptions_0159.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.650983+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1083,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.0433,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_auth_0177.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.651324+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.04,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_encoders_0061.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.651689+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.04,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_exceptions_0181.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.652061+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.04,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_headers_0029.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.652418+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.04,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_headers_0095.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.652932+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.04,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_response_0163.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.653524+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.04,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_status_codes_0040.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.654020+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.04,
+    "n_runs": 150,
+    "n_flips": 0
+  },
+  "tests/test_sync_client_0169.py::test_case": {
+    "detected_at": "2026-09-28T12:40:08.654605+00:00",
+    "reason": "historical_flip_analysis",
+    "flaky_score": 0.1,
+    "flip_rate": 0.0,
+    "fail_rate_no_change": 0.04,
+    "n_runs": 150,
+    "n_flips": 0
+  }
+}

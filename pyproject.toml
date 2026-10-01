@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-test-prioritization"
+version = "0.1.0"
+description = "ML-Based Test Case Prioritization Framework with Flaky Test Detection"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Adithya" }]
+
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.1.0",
+    "numpy>=1.26.0",
+    "lxml>=4.9.0",
+    "PyYAML>=6.0.1",
+    "scikit-learn>=1.4.0",
+    "xgboost>=2.0.0",
+    "imbalanced-learn>=0.11.0",
+    "mlflow>=2.10.0",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "coverage>=7.4.0",
+    "pluggy>=1.4.0",
+    "tqdm>=4.66.0",
+    "python-dotenv>=1.0.0",
+    "click>=8.1.0",
+    "rich>=13.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.3.0",
+    "black>=24.0.0",
+    "mypy>=1.8.0",
+    "pre-commit>=3.6.0",
+    "ipykernel>=6.29.0",
+]
+
+[project.entry-points.pytest11]
+ml_test_prioritization = "src.ci_plugin.plugin"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "scripts*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts   = "-v --tb=short"
+markers   = [
+    "flaky: marks tests as known-flaky (excluded from blocking CI)",
+    "slow: marks tests as slow-running",
+    "unit: fast unit tests",
+    "integration: integration tests that may require network",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit   = ["tests/*", "scripts/*"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = false
+ignore_missing_imports = true
